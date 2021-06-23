@@ -1,17 +1,11 @@
-@font-face {
-  font-family: "Avenir";
-  font-weight: 400;
-  font-style: normal;
-  src: url("/avenir-400.woff2") format("woff2");
-  font-display: swap;
-}
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
 body {
-  font-family: "Avenir", Tahoma, Arial, Helvetica, sans-serif;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
   font-size: 1em;
   line-height: 1.65;
-  color: #373F49;
-  background: #eee;
+  color: rgba(255, 255, 255, 0.87);
+  background: #121212;
   margin: 0;
 }
 
@@ -67,6 +61,6 @@ a {
   list-style: none;
 }
 
-  .list-inline li {
-    display: inline-block;
-  }
+.list-inline li {
+  display: inline-block;
+}

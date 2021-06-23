@@ -1,12 +1,22 @@
-.navigation {
+.navigationWrap {
   display: flex;
-  justify-content: center;
+}
+
+.navigation {
+  justify-content: flex-end;
   list-style: none;
-  padding: 0;
-  margin: 0;
-  height: 20vh;
-  max-height: 100px;
-  font-size: 1.25em;
+  font-size: 1em;
+}
+
+.navigationLogo {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 1em;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 2em;
+  color: rgba(245, 222, 179, 0.6);
 }
 
 .navigationItem {
@@ -15,6 +25,15 @@
   margin: 0 1em;
 }
 
+.navigationItem:active {
+  color: rgba(245, 222, 179, 0.6);
+}
+
+.navigationItem:hover {
+  color: #fff;
+}
+
 .navigationItem a {
   color: currentColor;
+  text-decoration: none;
 }
