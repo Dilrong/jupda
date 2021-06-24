@@ -4,7 +4,7 @@ import get from "lodash/get";
 import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 
-const RootIndex = () => {
+const Whitelists = () => {
   const siteTitle = get(this, "props.data.site.siteMetadata.title");
 
   return (
@@ -17,4 +17,4 @@ const RootIndex = () => {
   );
 };
 
-export default RootIndex;
+export default Whitelists;

@@ -25,10 +25,6 @@
   margin: 0 1em;
 }
 
-.navigationItem:active {
-  color: rgba(245, 222, 179, 0.6);
-}
-
 .navigationItem:hover {
   color: #fff;
 }

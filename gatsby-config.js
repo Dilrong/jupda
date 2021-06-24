@@ -36,14 +36,15 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful starter",
+    title: "Jupda",
   },
-  pathPrefix: "/gatsby-contentful-starter",
+  pathPrefix: "/Jupda",
   plugins: [
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-styled-components",
     {
       resolve: "gatsby-source-contentful",
       options: contentfulConfig,

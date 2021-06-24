@@ -8,16 +8,28 @@ export default () => (
     <nav role="navigation">
       <ul className={styles.navigation}>
         <li className={styles.navigationItem}>
-          <Link to="/Events">Event</Link>
+          <Link
+            to="/events"
+            activeStyle={{ color: "rgba(245, 222, 179, 0.6)" }}
+          >
+            Event
+          </Link>
         </li>
         <li className={styles.navigationItem}>
-          <Link to="/airdrops/">AirDrop</Link>
+          <Link
+            to="/airdrops/"
+            activeStyle={{ color: "rgba(245, 222, 179, 0.6)" }}
+          >
+            AirDrop
+          </Link>
         </li>
         <li className={styles.navigationItem}>
-          <Link to="/Whitelist/">Whitelist</Link>
-        </li>
-        <li className={styles.navigationItem}>
-          <Link to="/referral/">Referral</Link>
+          <Link
+            to="/whitelists/"
+            activeStyle={{ color: "rgba(245, 222, 179, 0.6)" }}
+          >
+            Whitelist
+          </Link>
         </li>
       </ul>
     </nav>
