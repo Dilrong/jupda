@@ -3,9 +3,7 @@ import "./base.css";
 import Container from "./container";
 import Navigation from "./navigation";
 
-const Template = () => {
-  const { children } = this.props;
-
+const Template = ({ children }) => {
   return (
     <Container>
       <Navigation />

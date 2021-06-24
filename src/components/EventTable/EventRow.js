@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const Cell = styled.div`
@@ -12,12 +12,9 @@ const Cell = styled.div`
   }
 `;
 
-const EventRow = () => {
-  const { image, title, summary, rating, date, tag } = this.props;
-  const tableWrapperEl = useRef < HTMLDivElement > null;
-
+const EventRow = ({ image, title, summary, rating, date, tag }) => {
   return (
-    <Cell role="table" ref={tableWrapperEl}>
+    <Cell role="table">
       {image} {title} {summary} {rating} {date} {tag}
     </Cell>
   );
